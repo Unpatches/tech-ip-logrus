@@ -108,7 +108,7 @@ tech-ip-logrus/
 ### Успешный запрос
 
 ```
-http://localhost:8086/v1/tasks
+http://91.200.84.37:8086/v1/tasks
 ```
 
 <img width="1280" height="712" alt="image" src="https://github.com/user-attachments/assets/193140ae-b6b0-4caf-8a2a-222a6399a8d4" />
@@ -116,7 +116,7 @@ http://localhost:8086/v1/tasks
 ### Запрос с ошибкой (неверный токен)
 
 ```
-http://localhost:8086/v1/tasks
+http://91.200.84.37:8086/v1/tasks
 ```
 
 <img width="1280" height="617" alt="image" src="https://github.com/user-attachments/assets/e4fc5981-29af-41bd-a864-ec67c0835246" />
@@ -124,7 +124,7 @@ http://localhost:8086/v1/tasks
 ### Запрос с межсервисным вызовом
 
 ```
-http://localhost:8086/v1/tasks
+http://91.200.84.37:8086/v1/tasks
 ```
 
 <img width="1280" height="741" alt="image" src="https://github.com/user-attachments/assets/47e20ac1-29ec-41b9-b987-528b11de8f67" />
