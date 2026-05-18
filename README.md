@@ -102,41 +102,36 @@ tech-ip-logrus/
 
 
 ## Скриншоты
-### Скрин/лог с request-id, подтверждающий прокидывание.
-
-<img width="1795" height="565" alt="image" src="https://github.com/user-attachments/assets/c4f2dfdc-aca1-489c-b1cb-574492ee860e" />
 
 
-<img width="1796" height="513" alt="image" src="https://github.com/user-attachments/assets/23db8837-c6b1-4010-9c75-62ced7f8a078" />
 
-### Получить токен
+### Успешный запрос
 
 ```
-http://185.250.46.179:8081/v1/auth/login
+http://localhost:8086/v1/tasks
 ```
 
-<img width="479" height="461" alt="image" src="https://github.com/user-attachments/assets/60881aac-9dfa-4d68-8dcb-b2212fd19967" />
+<img width="1280" height="712" alt="image" src="https://github.com/user-attachments/assets/193140ae-b6b0-4caf-8a2a-222a6399a8d4" />
 
-### Проверка токена напрямую
-
-```
-http://185.250.46.179:8081/v1/auth/verify
-```
-
-<img width="597" height="458" alt="image" src="https://github.com/user-attachments/assets/7f9939e4-980f-41c6-aeb7-c624bb15e4c5" />
-
-### Создать задачу через Tasks (с проверкой Auth)
+### Запрос с ошибкой (неверный токен)
 
 ```
-http://185.250.46.179:8082/v1/tasks
+http://localhost:8086/v1/tasks
 ```
 
-<img width="568" height="517" alt="image" src="https://github.com/user-attachments/assets/a3b9844e-81e8-400c-aaa2-65dc9feee181" />
+<img width="1280" height="617" alt="image" src="https://github.com/user-attachments/assets/e4fc5981-29af-41bd-a864-ec67c0835246" />
 
-### Попробовать без токена (должно быть 401)
+### Запрос с межсервисным вызовом
 
 ```
-http://185.250.46.179:8082/v1/tasks
+http://localhost:8086/v1/tasks
 ```
 
-<img width="536" height="455" alt="image" src="https://github.com/user-attachments/assets/bd55ad75-af30-4ac0-b412-51ddb6e47a78" />
+<img width="1280" height="741" alt="image" src="https://github.com/user-attachments/assets/47e20ac1-29ec-41b9-b987-528b11de8f67" />
+
+### Логи
+
+<img width="1280" height="445" alt="image" src="https://github.com/user-attachments/assets/6f398caa-b197-4562-9719-6fab27d7f8bd" />
+
+<img width="1280" height="451" alt="image" src="https://github.com/user-attachments/assets/114a06f1-381b-4a5b-8b30-88fa4b92a0a7" />
+
